@@ -28,7 +28,7 @@ public class ElementActions {
 	}
 
 	public void waitForelementPrsent(By locator) {
-		WebDriverWait wait = new WebDriverWait(driver, 20);
+		WebDriverWait wait = new WebDriverWait(driver, 50);
 		wait.until(ExpectedConditions.presenceOfElementLocated(locator));
 	}
 
@@ -80,7 +80,7 @@ public class ElementActions {
 	}
 	
 	public void elementToBeClickable(By locator) {
-		WebDriverWait wait= new WebDriverWait(driver, 20);
+		WebDriverWait wait= new WebDriverWait(driver, 50);
 		wait.until(ExpectedConditions.elementToBeClickable(locator));
 		
 	}
