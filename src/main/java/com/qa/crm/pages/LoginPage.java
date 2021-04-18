@@ -46,9 +46,6 @@ public class LoginPage extends BasePage{
 		return elementactions.isElementDisplaye(Forgot_password);
 	}
 	
-	public void test() {
-		System.out.println("Test");
-	}
-	
+
 	
 }
