@@ -13,5 +13,13 @@ public class ContactsPage extends  BasePage{
 		this.driver=driver;
 	}
 	
+	public void CreateContact() {
+		System.out.println("Create contact..");
+	}
+
+	public String getContactPageTitile() {
+		System.out.println("Create contact..");
+		return driver.getTitle();
+	}
 	
 }
