@@ -31,10 +31,10 @@ public class HomePage extends BasePage{
 		return elementactions.doGetText(account_name);
 	}
 	
-	public AccountsPage doAccountSettings() {
-		elementactions.doClick(daysProTrail);
-		
-		return new AccountsPage(driver);
-	}
-	
+//	public AccountsPage doAccountSettings() {
+//		elementactions.doClick(daysProTrail);
+//		
+//		return new AccountsPage(driver);
+//	}
+//	
 }
