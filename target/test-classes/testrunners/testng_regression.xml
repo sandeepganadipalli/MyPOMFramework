@@ -11,7 +11,7 @@
 		<classes>
 			<class name="com.qa.crm.tests.LoginPageTest" />
 			<class name="com.qa.crm.tests.HomePageTest" />
-			<class name="com.qa.crm.tests.AccountPageTest" />
+		<!-- 	<class name="com.qa.crm.tests.AccountPageTest" /> -->
 		</classes>
 	</test>
 </suite>
