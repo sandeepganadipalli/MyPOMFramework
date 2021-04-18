@@ -3,10 +3,10 @@
 
 <suite name="crm Test Suite"  verbose="1">
 
-	<listeners>
+	<!-- <listeners>
 		<listener class-name="com.qa.hubspot.listeners.ExtentReportListener" />
-		<!-- <listener class-name="com.qa.hubspot.listeners.TestAllureListener" /> -->
-	</listeners>	
+		<listener class-name="com.qa.hubspot.listeners.TestAllureListener" />
+	</listeners>	 -->
 	<test name="crm  regression Test">
 		<classes>
 			<class name="com.qa.crm.tests.LoginPageTest" />
