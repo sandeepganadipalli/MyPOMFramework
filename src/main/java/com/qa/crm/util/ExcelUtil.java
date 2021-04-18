@@ -15,8 +15,8 @@ public class ExcelUtil {
 	static XSSFWorkbook workbook;
 	static XSSFSheet  sheet;
 	
-	public static String TESTDATA_SHEET_PATH ="C:\\Users\\sande\\eclipse-workspace\\MavenHybridApproach"
-			+ "\\src\\main\\java\\com\\qa\\crm\\testdata\\CrmTestData.xlsx";
+	public static String TESTDATA_SHEET_PATH ="C:/Users/sande/eclipse-workspace/MavenHybridApproach"
+			+ "/src/main/java/com/qa/crm/testdata/CrmTestData.xlsx";
 
 	
 	/**
