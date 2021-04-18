@@ -56,11 +56,13 @@ public class BasePage {
 		String url=prop.getProperty("url");
 
 		if(browser.equals("chrome")) {
-			WebDriverManager.chromedriver().setup();
+			//WebDriverManager.chromedriver().setup();
+			System.setProperty("webdriver.chrome.driver", "C:/Users/sande/OneDrive/Desktop/Automation/chromedriver_win32/chromedriver.exe");	
 			 driver = new ChromeDriver();
 		}
 		else if(browser.equals("firefox")) {
-			WebDriverManager.firefoxdriver().setup();
+			//WebDriverManager.firefoxdriver().setup();
+			System.setProperty("webdriver.gecko.driver", "C:/Users/sande/OneDrive/Desktop/Automation/geckodriver-v0.29.0-win64/geckodriver");	
 			 driver = new FirefoxDriver();
 		}
 		else {
