@@ -6,15 +6,6 @@
   </listeners>
   <test thread-count="5" parallel="classes" name="crm  regression Test(failed)">
     <classes>
-      <class name="com.qa.crm.tests.LoginPageTest">
-        <methods>
-          <include name="loginTest"/>
-          <include name="forgotPasswordLinkTest"/>
-          <include name="setUp"/>
-          <include name="signUpLinkTest"/>
-          <include name="teamDown"/>
-        </methods>
-      </class> <!-- com.qa.crm.tests.LoginPageTest -->
       <class name="com.qa.crm.tests.AccountPageTest">
         <methods>
           <include name="tearDown"/>
