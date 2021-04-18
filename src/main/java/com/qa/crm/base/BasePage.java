@@ -21,6 +21,29 @@ public class BasePage {
 	public static  WebDriver driver;
 	public static Properties prop;
 	
+	
+	
+	/**
+	 * This method is used to get the properties form config prop file
+	 * @return prop
+	 */
+	public Properties init_properties() {
+		
+		 try {
+			 prop= new Properties(); 
+//			FileInputStream ip= new FileInputStream("C:\\Users\\sande\\eclipse-workspace\\MavenHybridApproach\\"
+//					+ "src\\main\\java\\com\\qa\\crm\\config\\config.properties");
+			FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+ "\\src\\main\\java\\com\\qa\\crm"
+					+ "\\config\\config.properties");
+			prop.load(ip);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		 
+		 return prop;
+	}
 	/**
 	 * This method is used to initialize the driver on the basis of browser
 	 * @return driver
@@ -46,27 +69,4 @@ public class BasePage {
 		
 		return driver;
 	}
-	
-	/**
-	 * This method is used to get the properties form config prop file
-	 * @return prop
-	 */
-	public Properties init_properties() {
-		
-		 try {
-			 prop= new Properties(); 
-//			FileInputStream ip= new FileInputStream("C:\\Users\\sande\\eclipse-workspace\\MavenHybridApproach\\"
-//					+ "src\\main\\java\\com\\qa\\crm\\config\\config.properties");
-			FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+ "\\src\\main\\java\\com\\qa\\crm"
-					+ "\\config\\config.properties");
-			prop.load(ip);
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-		 
-		 return prop;
-	}
-
 }
