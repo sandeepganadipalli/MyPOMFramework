@@ -33,8 +33,11 @@ public class BasePage {
 			 prop= new Properties(); 
 //			FileInputStream ip= new FileInputStream("C:\\Users\\sande\\eclipse-workspace\\MavenHybridApproach\\"
 //					+ "src\\main\\java\\com\\qa\\crm\\config\\config.properties");
-			FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+ "\\src\\main\\java\\com\\qa\\crm"
-					+ "\\config\\config.properties");
+//			FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+ "\\src\\main\\java\\com\\qa\\crm"
+//					+ "\\config\\config.properties");
+			 
+			 FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+ "/src/main/java/com/qa/crm"
+						+ "/config/config.properties");
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
