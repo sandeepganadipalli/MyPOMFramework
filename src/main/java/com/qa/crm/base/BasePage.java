@@ -19,7 +19,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class BasePage {
 	
 	public static  WebDriver driver;
-	Properties prop;
+	public static Properties prop;
 	
 	/**
 	 * This method is used to initialize the driver on the basis of browser
@@ -52,8 +52,9 @@ public class BasePage {
 	 * @return prop
 	 */
 	public Properties init_properties() {
-		 prop= new Properties(); 
+		
 		 try {
+			 prop= new Properties(); 
 //			FileInputStream ip= new FileInputStream("C:\\Users\\sande\\eclipse-workspace\\MavenHybridApproach\\"
 //					+ "src\\main\\java\\com\\qa\\crm\\config\\config.properties");
 			FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+ "\\src\\main\\java\\com\\qa\\crm"
