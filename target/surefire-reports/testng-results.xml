@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-19T12:24:18Z" name="crm Test Suite" finished-at="2021-04-19T12:24:29Z" duration-ms="11123">
+    <groups>
+    </groups>
+    <test started-at="2021-04-19T12:24:18Z" name="crm  regression Test" finished-at="2021-04-19T12:24:29Z" duration-ms="11123">
+      <class name="com.qa.crm.tests.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.crm.tests.HomePageTest@73e9cf30]" started-at="2021-04-19T12:24:22Z" name="setUp" finished-at="2021-04-19T12:24:28Z" duration-ms="5612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="homePageTitleTest()[pri:1, instance:com.qa.crm.tests.HomePageTest@73e9cf30]" started-at="2021-04-19T12:24:28Z" name="homePageTitleTest" finished-at="2021-04-19T12:24:28Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.crm.tests.HomePageTest@73e9cf30]" started-at="2021-04-19T12:24:28Z" name="tearDown" finished-at="2021-04-19T12:24:29Z" duration-ms="1113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.crm.tests.HomePageTest -->
+      <class name="com.qa.crm.tests.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.crm.tests.LoginPageTest@272113c4]" started-at="2021-04-19T12:24:18Z" name="setUp" finished-at="2021-04-19T12:24:21Z" duration-ms="3649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.qa.crm.tests.LoginPageTest@272113c4]" started-at="2021-04-19T12:24:21Z" name="loginPageTitleTest" finished-at="2021-04-19T12:24:21Z" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="teamDown()[pri:0, instance:com.qa.crm.tests.LoginPageTest@272113c4]" started-at="2021-04-19T12:24:21Z" name="teamDown" finished-at="2021-04-19T12:24:22Z" duration-ms="672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teamDown -->
+      </class> <!-- com.qa.crm.tests.LoginPageTest -->
+    </test> <!-- crm  regression Test -->
+  </suite> <!-- crm Test Suite -->
+</testng-results>
